@@ -93,9 +93,11 @@ Bring your creations to life with advanced module integration:
 ### Step 1: Open the Online Manim Jupyter Environment
 
 **Click this link to access the online environment:**
-👉 **https://hub.2i2c.mybinder.org/user/manimcommunity-jupyter_examples-38q01xrr/tree**
+- **Main Environment**: https://www.manim.community/
+  - Click on: *Try Manim Online*
 
 **What you will see:**
+
 - A file browser with example notebooks
 - A "New" button to create notebooks
 - Examples from the Manim community
@@ -112,7 +114,8 @@ Follow the tutorials to have some fun while creating your animations using Jupyt
 
 **Important URLs to Bookmark:**
 
-- **Main Environment**: https://hub.2i2c.mybinder.org/user/manimcommunity-jupyter_examples-38q01xrr/tree
+- **Main Environment**: https://www.manim.community/
+  - Click on: *Try Manim Online*
 - **Manim Documentation**: https://docs.manim.community/
 - **Manim Documentation**: https://docs.manim.community/en/stable/
 
