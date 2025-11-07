@@ -1,0 +1,32 @@
+# --> check the technical writing for various characteristics
+- writing/reflection.md:
+  - description: Ensure that reflection.md file exists in the writing/ directory
+    check: ConfirmFileExists
+  - description: Add your name to writing/reflection.md, then delete the 'Add your name here' placeholder 
+    check: MatchFileFragment
+    options:
+      fragment: "Add Your Name Here"
+      count: 0
+      exact: true
+  - description: Ensure no TODO items remain in the reflection
+    check: MatchFileFragment
+    options:
+      fragment: "TODO"
+      count: 0
+      exact: true
+  # - description: Ensure reflection contains substantial analysis in clear and meaningful language(minimum 100 words)
+  #   check: CountFileWords
+  #   options:
+  #     count: 100
+  #     exact: false
+
+# --> check that notebook file exists
+- ./src/Activity_08_Animation_Magic.ipynb:
+  - description: Ensure that ./src/Activity_08_Animation_Magic.ipynb file exists
+    check: ConfirmFileExists
+
+# count number of commits in the GitHub repository
+- description: Have at least a specific minimum number of commits (3) in repository
+  check: CountCommits
+  options:
+    count: 3
